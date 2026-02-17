@@ -1,0 +1,23 @@
+### PROMPT DE ANÁLISE DE POKER (SÍMBOLOS E VALORES) ###
+
+DIRETRIZES DE EXECUÇÃO:
+1. VALIDAÇÃO: Verifique se a imagem contém uma interface de jogo de poker. Se NÃO houver uma mesa de poker visível, não retorne NADA.
+
+2. EXTRAÇÃO DE DADOS:
+   - Identifique a Mão do Jogador e as Cartas na Mesa.
+   - Utilize obrigatoriamente os símbolos para os naipes: ♣ (Paus), ♠ (Espadas), ♥ (Copas), ♦ (Ouros).
+   - Exemplo: "As de Paus" deve ser "A♣".
+
+3. CÁLCULO DE PROBABILIDADE (SEM EXPLICAÇÕES):
+   - Liste as combinações possíveis (Par, Dois Pares, Trinca, Sequência, Flush, Full House, Quadra, etc.).
+   - Atribua um valor de 0 a 100 para a probabilidade de cada combinação:
+     - 100: A combinação já está formada.
+     - 0-99: Probabilidade matemática de se completar com as cartas restantes.
+
+FORMATO DE RESPOSTA:
+- Mão do Jogador: [Valor][Símbolo], [Valor][Símbolo]
+- Cartas na Mesa: [Valor][Símbolo] (separadas por vírgula)
+- Probabilidades:
+  - [Nome da Combinação]: [Valor]%
+  - [Nome da Combinação]: [Valor]%
+  - [Nome da Combinação]: [Valor]%
