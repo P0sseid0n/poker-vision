@@ -59,3 +59,8 @@ O script irá capturar a tela, enviar para a IA e imprimir a análise no termina
 - `main.py`: Script principal que captura a tela e chama a API.
 - `prompt.txt`: Instruções enviadas para a IA sobre como analisar a imagem.
 - `requirements.txt`: Lista de bibliotecas Python necessárias.
+
+## ✅ Todo / Funcionalidades Futuras
+
+- [ ] Otimizar tempo de resposta da IA (diminuir latência).
+- [ ] Criar interface gráfica (Popup/Overlay) para exibir os resultados na tela.
